@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eeede9dc;
+    background-size: 100vh;
+}
+.nav ul{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 50px;
+    line-height: 80px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+
+}
+.Sn{
+    text-align: justify;
+    color:rgb(66, 63, 63);
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.nav ul li a:hover{
+    font-weight: bold;
+    color: rgb(204, 197, 197);
+    letter-spacing: 2px;
+    border-bottom: 2px solid grey;
+}
+.banner{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(550px ,1fr));
+    grid-column-gap: 20px;
+    width: 92%;
+    height: 100%;
+    top:15%;
+    position: absolute;
+    color:#000;
+    left: 100px;
+}
+.main-txt{
+    width: 50%;
+    float:left;
+    margin-bottom: 10px;
+}
+.main-txt a {
+    text-decoration: none;
+    color:#000;
+    font-weight: lighter;
+}
+.main-txt h1{
+    font-size: 30px;
+    width:640px;
+    position: relative;
+    font-weight: lighter;
+  
+}
+ .main-txt p{
+    font-size: 20px;
+    width:600px;
+    position: relative;
+    margin: 0 10px;
+    line-height: 25px;
+    color: #5d5d62;
+}
+.app-pic img, .app-pic1 img, .app-pic2 img, .app-pic3 img, .app-pic4 img{
+    border-radius:10px;
+}
+.app-pic, .app-pic3, .app-pic4{
+width: 100%;
+float: right;
+margin-bottom:10px ;
+margin-top:100px;
+ 
+}
+.app-pic img, .app-pic3 img, .app-pic4 img{
+    width: 80%;
+    height: 500px;
+}
+.app-pic1{
+    width: 100%;
+    float: right;
+    margin-bottom:10px ;
+    margin-top: 150px;
+    }
+.app-pic1 img{
+    width: 80%;
+    height: 500px;
+}
+.app-pic2{
+    width: 100%;
+    float: right;
+    margin-bottom:10px ;
+    margin-top: 100px;
+    }
+.app-pic2 img{
+    width: 80%;
+    height: 500px;
+}
+
+.prv-txt{
+    width: 50%;
+    float:left;
+    margin-bottom: 10px;
+    color: Blue;
+}
+.prv-txt h1{
+    font-size: 30px;
+    width:600px;
+    position: relative;
+    font-weight: lighter;
+  
+}
+ .prv-txt p{
+    font-size: 20px;
+    width:600px;
+    position: relative;
+    margin: 0 10px;
+    line-height: 25px;
+    color: #36365f;
+}
+.rec-txt{
+    width: 50%;
+    float:left;
+    margin-bottom: 10px;
+    
+    
+}
+.rec-txt h1{
+    font-size: 30px;
+    width:600px;
+    position: relative;
+    font-weight: lighter;
+    color: green;
+  
+}
+ .rec-txt p{
+    font-size: 20px;
+    width:600px;
+    position: relative;
+    margin: 0 10px;
+    line-height: 25px;
+    color: rgb(81, 153, 81);
+}
+.sym-txt{
+    width: 50%;
+    float:left;
+    margin-bottom: 10px;    
+}
+.red{
+    color: rgba(133, 16, 16, 0.883);
+}
+.sym-txt h1{
+    font-size: 30px;
+    width:600px;
+    position: relative;
+    font-weight: lighter;
+    color:rgba(133, 16, 16, 0.883);
+}
+  
+
+ .sym-txt p{
+    font-size: 20px;
+    width:600px;
+    position: relative;
+    margin: 0 10px;
+    line-height: 25px;
+    color: rgb(116, 39, 12);
+}
+
+.about-txt{
+    width: 100%;
+    float:right;
+    margin-bottom: 10px;
+}
+.about-txt h1{
+    font-size: 30px;
+    width:600px;
+    position: relative;
+    font-weight: lighter;
+    color:rgba(32, 32, 32, 0.883);
+}
+  
+
+.about-txt p{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    width:600px;
+    position: relative;
+    margin: 10px 10px;
+    line-height: 25px;
+    color: rgb(58, 56, 55);
+}
+.about-pic{
+    width: 500px;
+    float: left;
+    margin-bottom:10px ;
+  
+    }
+    .about-pic img{
+        width: 600px;
+        height: 600px;
+        border-radius: 10px;
+    }
+    footer{
+        float: right;
+    }
+    footer h1{
+        text-align: end;
+        margin-right: 20px;
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+    .about{
+        margin-top: 30px;
+        color:rgb(22, 21, 21);
+        text-align: end;
+        font-family: Verdana;
+        letter-spacing: 2px;
+        font-weight: lighter;
+    }
+    .hash{
+        color: rgb(6, 66, 6);
+        font-weight: bolder;
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+   
+
